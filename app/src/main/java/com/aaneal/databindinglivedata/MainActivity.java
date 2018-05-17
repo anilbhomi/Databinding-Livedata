@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         nameModel = ViewModelProviders.of(this).get(NameModel.class);
 
 
-      //  activityMainBinding.setNameModel(nameModel);
         activityMainBinding.setLifecycleOwner(this);
 
         nameModel.getData().observe(this, new Observer<String>() {

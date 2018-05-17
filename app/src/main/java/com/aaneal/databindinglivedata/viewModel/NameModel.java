@@ -24,13 +24,9 @@ public class NameModel extends ViewModel {
     public void login(){
         userRepository.loginUser("anil1");
         data = userRepository.getResponse();
-
-        Log.i("debug",data.getValue());
     }
 
     public MutableLiveData<String> getData() {
-
         return data;
-
     }
 }

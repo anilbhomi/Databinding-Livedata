@@ -7,6 +7,7 @@ import android.databinding.DataBindingUtil;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.aaneal.databindinglivedata.databinding.ActivityLoginBinding;
 import com.aaneal.databindinglivedata.model.LoginModel;

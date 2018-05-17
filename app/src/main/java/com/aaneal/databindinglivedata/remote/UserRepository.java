@@ -5,8 +5,8 @@ import android.arch.lifecycle.MutableLiveData;
 public class UserRepository {
 
     private  MutableLiveData<String> data = new MutableLiveData<>();
-    public UserRepository(){
 
+    public UserRepository(){
     }
 
     public void loginUser(String user){
@@ -18,7 +18,6 @@ public class UserRepository {
     }
 
     public MutableLiveData<String> getResponse(){
-
         return data;
     }
 }
